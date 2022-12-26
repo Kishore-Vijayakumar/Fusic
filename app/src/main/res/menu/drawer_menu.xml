@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+<group android:checkableBehavior="single">
+    <item android:id="@+id/library"
+        android:icon="@drawable/ic_library"
+        android:title="Library" />
+    <item android:id="@+id/artist"
+        android:icon="@drawable/ic_artist"
+        android:title="Artist" />
+    <item android:id="@+id/album"
+        android:icon="@drawable/ic_album"
+        android:title="Album" />
+    <item android:id="@+id/playlist"
+        android:icon="@drawable/ic_playlist"
+        android:title="Playlist" />
+    <item android:id="@+id/video"
+        android:icon="@drawable/ic_video"
+        android:title="Video Library" />
+</group>
+    <item android:title="Video">
+        <menu>
+
+        </menu>
+    </item>
+
+
+</menu>

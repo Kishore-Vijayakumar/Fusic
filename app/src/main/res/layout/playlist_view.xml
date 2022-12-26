@@ -1,0 +1,58 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_view"
+    android:layout_width="140dp"
+    android:layout_height="180dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="20dp"
+
+    android:layout_marginEnd="10dp"
+    android:foreground="?selectableItemBackgroundBorderless"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/playlist_art"
+            android:layout_width="match_parent"
+            android:layout_height="134dp"
+            android:layout_alignParentTop="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/empty_album_artist"
+            android:transitionName="transition_album_art" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/playlist_art"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="8dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/playlist_title"
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/playlist_details"
+                style="@style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

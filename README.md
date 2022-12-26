@@ -1,2 +1,1 @@
-# droid
-Projects done in Android Studio with Java language.
+Media Player App done as College project
