@@ -51,4 +51,4 @@
 ## 📜 How to Use
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/fusic.git
+   git clone https://github.com/Kishore-Vijayakumar/fusic.git
